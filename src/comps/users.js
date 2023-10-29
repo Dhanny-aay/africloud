@@ -7,9 +7,9 @@ import tether from '../images/tether.svg';
 const Users = () => {
     return ( 
         <>
-        <div className=" flex flex-col w-full justify-center items-center text-[#121212] py-[3em] px-16">
-            <p className=" font-Outfit text-center font-medium text-2xl">Making Cloud Service Available For</p>
-            <div className=" flex items-center w-full py-8 justify-between">
+        <div className=" flex flex-col w-full justify-center items-center text-[#121212] py-[3em] px-4 md:px-16">
+            <p className=" font-Outfit text-center font-medium text-xl md:text-2xl">Making Cloud Service Available For</p>
+            <div className=" grid grid-cols-2 gap-[32px] md:flex items-center w-full py-8 justify-between">
                 <img 
                 src={ binance }
                 className=''
@@ -32,9 +32,13 @@ const Users = () => {
 
                 <img 
                 src={ bitmex }
-                className=''
+                className=' hidden md:block'
                 alt="" />
             </div>
+            <img 
+                src={ bitmex }
+                className=' block md:hidden'
+                alt="" />
         </div>
         </>
      );
