@@ -7,7 +7,7 @@ import whatsapp from '../images/whatsapp.svg';
 const Footer = () => {
     return ( 
         <>
-        <div className=" mt-[1.5em] py-[3em] px-4 md:px-16 w-full font-Outfit text-[#121212] bg-gradient-to-r from-[#288DD11A] to-[#3FE0C81A] flex flex-col md:flex-row items-start justify-between space-y-5 md:space-y-0">
+        <div className=" mt-[1.5em] py-[3em] px-4 md:px-8 lg:px-16 w-full font-Outfit text-[#121212] bg-gradient-to-r from-[#288DD11A] to-[#3FE0C81A] flex flex-col md:flex-row items-start justify-between space-y-5 md:space-y-0">
 
             <div className=" space-y-6">
                 <span className=" flex items-center space-x-2">
