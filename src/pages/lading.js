@@ -1,5 +1,6 @@
 import Ads from "../comps/ads";
 import Banner from "../comps/banner";
+import Carousel from "../comps/carousel";
 import Faq from "../comps/faq";
 import Features from "../comps/feature";
 import Footer from "../comps/footer";
@@ -14,6 +15,7 @@ const Landing = () => {
         <Navbar/>
         <Hero/>
         <Users/>
+        <Carousel/>
         <Services/>
         <Banner/>
         <Features/>

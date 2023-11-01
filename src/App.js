@@ -16,7 +16,7 @@ function App() {
   },[])
 
   return (
-    <div className="">
+    <>
       {
         loading ?
         <div className=" flex w-full h-[100vh] justify-center items-center">
@@ -27,7 +27,7 @@ function App() {
         <Landing/>
       }
       
-    </div>
+    </>
   );
 }
 

@@ -5,7 +5,7 @@ const Ads = () => {
     return ( 
         <>
         <div className="  py-[3em] px-4 md:px-8 lg:px-16 w-full font-Outfit text-[#fff]">
-            <div className=" w-full h-[300px] flex justify-center items-center text-center flex-col rounded-[30px] bg-gradient-to-r from-[#288DD1CC] via-[#3fd0e0CC] to-[#3FE0C8CC] relative space-y-4">
+            <div className=" w-full h-[400px] md:h-[300px] flex justify-center items-center text-center flex-col rounded-[30px] bg-gradient-to-r from-[#288DD1CC] via-[#3fd0e0CC] to-[#3FE0C8CC] relative space-y-4">
                 <img 
                 src={ left } 
                 className='  absolute left-0 bottom-0'

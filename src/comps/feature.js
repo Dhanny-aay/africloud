@@ -15,7 +15,7 @@ const Features = () => {
             <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[32px] lg:gap-[4%] mt-8 md:mt-16">
 
                 <div className='w-full md:h-[270px] lg:h-[250px] rounded-[20px] bg-gradient-to-r from-[#288DD11A] to-[#3FE0C81A] p-5 lg:p-7'>
-                    <span className=' flex items-center space-x-3'>
+                    <span className=' flex flex-col md:flex-row items-start md:items-center md:space-x-3'>
                         <img 
                         src={ beneone }
                         alt="" />
@@ -25,7 +25,7 @@ const Features = () => {
                 </div>
 
                 <div className='w-full md:h-[270px] lg:h-[250px] rounded-[20px] bg-gradient-to-r from-[#288DD11A] to-[#3FE0C81A] p-5 lg:p-7'>
-                    <span className=' flex items-center space-x-3'>
+                    <span className=' flex flex-col md:flex-row items-start md:items-center md:space-x-3'>
                         <img 
                         src={ benetwo }
                         alt="" />
@@ -35,7 +35,7 @@ const Features = () => {
                 </div>
 
                 <div className='w-full md:h-[270px] lg:h-[250px] rounded-[20px] bg-gradient-to-r from-[#288DD11A] to-[#3FE0C81A] p-5 lg:p-7'>
-                    <span className=' flex items-center space-x-3'>
+                    <span className=' flex flex-col md:flex-row items-start md:items-center md:space-x-3'>
                         <img 
                         src={ benethree }
                         alt="" />
@@ -45,7 +45,7 @@ const Features = () => {
                 </div>
 
                 <div className='w-full md:h-[270px] lg:h-[250px] rounded-[20px] bg-gradient-to-r from-[#288DD11A] to-[#3FE0C81A] p-5 lg:p-7'>
-                    <span className=' flex items-center space-x-3'>
+                    <span className=' flex flex-col md:flex-row items-start md:items-center md:space-x-3'>
                         <img 
                         src={ benefour }
                         alt="" />
@@ -55,7 +55,7 @@ const Features = () => {
                 </div>
 
                 <div className='w-full md:h-[270px] lg:h-[250px] rounded-[20px] bg-gradient-to-r from-[#288DD11A] to-[#3FE0C81A] p-5 lg:p-7'>
-                    <span className=' flex items-center space-x-3'>
+                    <span className=' flex flex-col md:flex-row items-start md:items-center md:space-x-3'>
                         <img 
                         src={ benefive }
                         alt="" />
@@ -65,7 +65,7 @@ const Features = () => {
                 </div>
 
                 <div className='w-full md:h-[270px] lg:h-[250px] rounded-[20px] bg-gradient-to-r from-[#288DD11A] to-[#3FE0C81A] p-5 lg:p-7'>
-                    <span className=' flex items-center space-x-3'>
+                    <span className=' flex flex-col md:flex-row items-start md:items-center md:space-x-3'>
                         <img 
                         src={ benesix }
                         alt="" />

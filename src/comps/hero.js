@@ -1,12 +1,19 @@
+import { useLayoutEffect, useRef } from 'react';
 import heroImg from '../images/heroImg.svg';
 import gsap from 'gsap';
 
+
 const Hero = () => {
 
-    gsap.to('.hero',{ delay:3, y:15, duration:3})
+    const heroRef = useRef();
+    useLayoutEffect(()=>{
+        gsap.to(heroRef.current,{
+            delay:5, y:-15,
+        })
+    });
     return ( 
         <>
-        <div className="px-4 hero mt-24 md:px-8 lg:px-16 text-center md:text-left py-10 flex flex-col md:flex-row text-[#121212]">
+        <div ref={heroRef} className="px-4 mt-24 md:px-8 lg:px-16 text-center md:text-left py-10 flex flex-col md:flex-row text-[#121212]">
             <div className=" w-full md:w-[70%] flex items-center md:items-start flex-col font-Outfit">
                 <p className=" font-medium text-4xl lg:text-6xl lg:leading-[80px]">Powering Africa's digital transformation with cloud solutions</p>
                 <p className=" text-lg md:text-2xl md:w-[80%] font-normal mt-3 md:leading-[30px]">Empower Your Business in Africa with Cloud Innovation.</p>
