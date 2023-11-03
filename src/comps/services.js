@@ -12,7 +12,7 @@ const Services = () => {
             <p className=" font-medium text-3xl md:text-5xl text-center">Explore our services</p>
             <p className=" text-center lg:px-[15%] text-[#121212CC] text-lg py-3">Uni Cloud Africa is your trusted partner for cutting-edge cloud solutions that transform businesses across Africa. Our platform offers a comprehensive suite of cloud services designed to drive innovation, meet compliance, enhance scalability, and accelerate growth.</p>
             <div className=" py-12 flex md:flex-col lg:flex-row justify-between w-full">
-                <div className=" w-full md:grid grid-cols-2 lg:block lg:w-1/2 h-[400px] font-Outfit text-[#121212] space-y-5 md:space-y-0 lg:space-y-7">
+                <div className=" w-full md:grid grid-cols-2 lg:block md:w-full lg:w-1/2 h-[400px] font-Outfit text-[#121212] space-y-5 md:space-y-0 lg:space-y-7">
 
                     <div className=" w-full">
                         <span className=' flex flex-col md:flex-row items-start lg:items-end md:space-x-3'>

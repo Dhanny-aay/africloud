@@ -7,7 +7,7 @@ import bitmex from '../images/bitmex.svg';
 const Carousel = () => {
 
   return (
-    <div className=" w-full px-4 md:px-8 lg:px-16 py-4">
+    <div className=" w-full px-4 md:px-8 lg:px-16 pt-4 pb-16">
        <div className='w-full overflow-x-scroll scrollbar-hide'>
         <div className='flex flex-row justify-between'>
             <img src={ binance } className=' mx-4 lg:mx-0' alt="" />

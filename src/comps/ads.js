@@ -16,8 +16,8 @@ const Ads = () => {
                 className='  absolute right-0 top-0'
                 alt="" />
 
-                <p className=' font-semibold text-5xl'>Start today</p>
-                <p className=' font-normal text-xl'>Sign up now and you'll be up and running on Unicloud Africa in just minutes.</p>
+                <p className=' font-semibold text-3xl md:text-5xl'>Start today</p>
+                <p className=' font-normal px-4 md:px-0 text-xl'>Sign up now and you'll be up and running on Unicloud Africa in just minutes.</p>
                 <button className=" px-9 py-4 bg-[#fff] rounded-[30px] text-base text-[#000] mt-4">Get started now</button>
             </div>
         </div>

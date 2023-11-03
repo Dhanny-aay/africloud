@@ -35,9 +35,9 @@ const Navbar = () => {
                 <img 
                 src={ logo }
                  alt="" />
-                <p className=' font-Outfit font-normal text-2xl'>AfriCloud</p>
+                <p className=' font-Outfit font-medium text-2xl'>AfriCloud</p>
             </span>
-            <div onClick={ overlay } className="menu-icon lg:hidden">
+            <div onClick={ overlay } className="menu-icon md:hidden">
                 <input className="menu-icon__cheeckbox" type="checkbox" />
                 <div className=' lg:hidden'>
                     <span></span>
