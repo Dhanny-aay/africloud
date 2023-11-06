@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import heroImg from '../images/heroImg.svg';
+import heroImg from '../images/heroImg.webp';
 
 const Hero = () => {
   const isMobile = window.innerWidth <= 768; 
@@ -38,7 +38,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 44 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: isMobile ? 1.8 : 1 }} // Conditionally set the delay
-            src={heroImg} className="md:absolute right-0 w-full mt-5 md:mt-0 md:w-[60%] lg:w-[55%]" alt=""
+            src={heroImg} className="md:absolute right-0 w-[120%] mt-5 md:mt-0 lg:mt-5 md:w-[60%] lg:w-[50%]" alt=""
           />
         </div>
       </div>

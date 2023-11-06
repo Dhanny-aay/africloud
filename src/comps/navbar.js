@@ -1,4 +1,4 @@
-import logo from '../images/logo.svg';
+import logo from '../images/logo.webp';
 import menu from '../images/menu.svg';
 
 const Navbar = () => {

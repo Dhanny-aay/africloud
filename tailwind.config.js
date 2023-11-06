@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'Outfit': ['"Outfit"', 'sans-serif'],
+        Outfit: ['Outfit', 'sans-serif'],
       },
     },
   },

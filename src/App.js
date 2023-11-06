@@ -1,6 +1,6 @@
 import Landing from "./pages/lading";
 import bigLogo from './images/bigLogo.svg';
-import bigger from './images/bigger.svg';
+import bigger from './images/bigger.webp';
 import { useEffect, useState } from "react";
 
 function App() {

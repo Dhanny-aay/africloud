@@ -3,11 +3,17 @@ import bitcoin from '../images/bitcoin.svg';
 import coinbase from '../images/coinbase.svg';
 import tether from '../images/tether.svg';
 import bitmex from '../images/bitmex.svg';
+import { motion } from "framer-motion";
+
 
 const Carousel = () => {
 
   return (
-    <div className=" w-full px-4 md:px-8 lg:px-16 pt-4 pb-16">
+    <motion.div
+    initial={{ y: 20, opacity: 0 }}
+    whileInView={{ y: 0, opacity: 1 }}
+    transition={{ duration: 1, type:'tween' }}
+    className=" w-full px-4 md:px-8 lg:px-16 pt-4 pb-16">
        <div className='w-full overflow-x-scroll scrollbar-hide'>
         <div className='flex flex-row justify-between'>
             <img src={ binance } className=' mx-4 lg:mx-0' alt="" />
@@ -17,7 +23,7 @@ const Carousel = () => {
             <img src={ bitmex } className=' mx-4 lg:mx-0' alt="" />
         </div>
        </div>
-    </div>
+    </motion.div>
   );
 };
 
